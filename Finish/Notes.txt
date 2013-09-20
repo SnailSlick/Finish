@@ -1,0 +1,14 @@
+Game class will contain the classes relevant to the game, as well as what is needed to run the game.
+This includes quit booleon, the Handle_Input class, and the world.
+
+The world class should contain entities. It will contain functions in order to communicate with the
+Handle_Input class that the Game will set up communication with.
+
+Handle_Input class will take input from the user and determine which entities to edit.
+
+Entities will contain their cords and sprite index as well as functions to pass their information 
+to the render engine
+
+Render engine gets passed sprite index and cords as to where to render. The render engine will
+exist in the game class.
+
